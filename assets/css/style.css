@@ -24,8 +24,8 @@ h1 {
   font-size: 4.5rem;
   text-align: center;
   line-height: 1;
-  margin-top: 18.8125rem;
-  text-shadow: 0px 5px 4px rgba(16, 16, 16, 0.34);
+  margin-top: 27rem;
+  text-shadow: 0px 4px 4px rgba(16, 16, 16, 0.6);
 }
 h1 em {
   font-style: normal;
@@ -42,6 +42,7 @@ h2 {
   padding: 0;
   line-height: 1;
   padding-bottom: 2.25rem;
+  text-shadow: 0px 4px 4px rgba(16, 16, 16, 0.6);
 }
 h2:after {
   content: "";
@@ -482,7 +483,7 @@ HEADER
 header.default {
   width: 100%;
   height: 826px;
-  background: url("http://placehold.it/1900x826") center top no-repeat;
+  background: url("/assets/img/banner_1.jpg") center top no-repeat;
   background-size: cover;
 }
 header.default nav {
@@ -538,7 +539,7 @@ header.default nav ul li.current-page a:before {
   display: block;
   text-align: center;
   font-size: 1.5rem;
-  color: #fff;
+  color: #333;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -546,6 +547,7 @@ header.default nav ul li.current-page a:before {
   line-height: 1;
   margin-top: 1.4375rem;
   position: relative;
+  text-shadow: 0px 5px 4px rgba(16, 16, 16, 0.6);
 }
 .ceremony-date sup {
   font-size: 0.875rem;
@@ -573,7 +575,7 @@ COUPLE SECTION
 #couple {
   max-width: none;
   height: 889px;
-  background: url("http://placehold.it/1900x889/eeeeee") center top no-repeat;
+  background-color: #eee;
   background-size: cover;
   margin-top: 826px;
   position: relative;
@@ -647,7 +649,7 @@ COUNTDOWN SECTION
 #countdown {
   max-width: none;
   height: 689px;
-  background: url("http://placehold.it/1900x689") center top no-repeat;
+  background: url("/assets/img/banner_2_v2.jpg") center top no-repeat;
   background-size: cover;
   padding-top: 7.8125rem;
   position: relative;
@@ -732,8 +734,8 @@ GROOMSMEN GALLERY
   margin-top: 0;
   padding-top: 5.375rem;
   height: 723px;
-  background: url("http://placehold.it/1900x723/333333") center top no-repeat;
-  background-size: cover;
+  background: url("/assets/img/golf_pants_pattern.jpg") repeat;
+ 
   position: relative;
 }
 #groomsmen-gallery h2 {
@@ -759,7 +761,7 @@ COUPLE GALLERY
 #couple-gallery {
   width: 100%;
   height: 1198px;
-  background: url("http://placehold.it/1900x1198") center top no-repeat;
+  background: url("/assets/img/banner_field.jpg") center top no-repeat;
   background-size: cover;
   padding-top: 5.375rem;
   text-align: center;
@@ -1056,7 +1058,7 @@ RSVP SECTION
 #rsvp {
   width: 100%;
   height: 973px;
-  background: url("http://placehold.it/1900x973/eeeeee") center top no-repeat;
+  background: url("/assets/img/banner_4.jpg") center top no-repeat;
   background-size: cover;
   padding-top: 7.5rem;
   position: relative;
@@ -1072,7 +1074,7 @@ RSVP SECTION
 }
 
 .rsvp-form-wrap {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.5);
   width: 663px;
   height: 732px;
   margin: 0 auto;
@@ -1119,7 +1121,7 @@ SCHEDULE SECTION
 #schedule {
   width: 100%;
   height: 980px;
-  background: url("http://placehold.it/1900x980") center top no-repeat;
+  background: #eee;
   background-size: cover;
   padding-top: 7.875rem;
   position: relative;
@@ -1203,7 +1205,7 @@ CONTACT SECTION
 #contact {
   width: 100%;
   height: 976px;
-  background: url("http://placehold.it/1900x976/eeeeee") center top no-repeat;
+  background: url("/assets/img/banner_5.jpg") center top no-repeat;
   background-size: cover;
   padding-top: 6.75rem;
   position: relative;
@@ -1219,7 +1221,7 @@ CONTACT SECTION
 }
 
 .contact-form-wrap {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.5);
   width: 663px;
   height: 780px;
   margin: 0 auto;

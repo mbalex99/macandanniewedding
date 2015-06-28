@@ -1,7 +1,0 @@
-Matrimony v2.2
-HTML5 & CSS3 Wedding HTML Template
-http://matrimony.infinitylabs.ca
-
-/* TEAM */
-Company: Infinity Labs
-Website: http://infinitylabs.ca
