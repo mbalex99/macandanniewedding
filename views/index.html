@@ -98,31 +98,31 @@
 <!-- Couple gallery section -->
 <section id="couple-gallery">
     <h2>Engagement Photos</h2>
-    <div class="il-scattered-gallery">
-        <a href="#"><img src="/assets/img/engagementphotos/041616Engage_0038.jpg" alt=""></a>
-        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+
+
+    <div class="row">
+        <div class="couple-gallery-images">
+            <img src="/assets/img/engagementphotos/041616Engage_0038.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0062.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0093.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0127.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0135.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0151.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0187.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0233.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0251.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0257.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0288.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0294.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0336.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0400.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0430.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0459.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0490.jpg" height="300"/>
+            <img src="/assets/img/engagementphotos/041616Engage_0499_56180005.jpg" height="300"/>
+        </div>
     </div>
-    <div class="couple-slideshow-wrap">
-        <ul id="couple-slideshow"></ul>
-        <ul class="couple-thumbs"></ul>
-    </div><!-- End .couple-slideshow-wrap -->
-    <a id="gallery-launcher" href="#">Click to view gallery</a>
-    <div class="couple-mobile-slider-wrap"><div class="couple-mobile-slider"></div></div>
+
 </section><!-- End #couple-gallery -->
 
 <!-- Recent posts section -->
@@ -225,6 +225,10 @@
     $(function() {
         $('#couple-gallery').ilScatteredGallery();
     });
+
+    $('.couple-gallery-images').slick({
+        adaptiveHeight: true
+    })
 </script>
 
 <script>
