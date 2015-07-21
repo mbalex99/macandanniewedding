@@ -1,190 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<title>George & Annie | - We're getting Married!</title>
-	<link href="/assets/img/favicon.png" rel="icon" type="image/png">
-	<link rel="stylesheet" href="/assets/css/normalize.css">
-	<link rel="stylesheet" href="/assets/css/foundation.min.css">
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="/assets/css/style.css">
-	<script src="/assets/js/vendor/modernizr.js"></script>
-	<script src="/assets/js/vendor/jquery-1.11.1.min.js"></script>
-	<script>
-	jQuery(function ($){
-		"use strict";
-		// Months = 0 to 11 (Jan to Dec)
-		var weddDay = new Date(2016, 4, 16);// YYYY, M, DD
-		$('#default-countdown').countdown({until: weddDay, format: 'YOD'});
-	});
-	</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>George & Annie | - We're getting Married!</title>
+    <link href="/assets/img/favicon.png" rel="icon" type="image/png">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/foundation.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/vendor/modernizr.js"></script>
+    <script src="/assets/js/vendor/jquery-1.11.1.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.6/slick.css"/>
+    // Add the slick-theme.css if you want default styling
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.6/slick-theme.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.6/slick.min.js"></script>
+
+    <script>
+        jQuery(function ($){
+            "use strict";
+            // Months = 0 to 11 (Jan to Dec)
+            var weddDay = new Date(2016, 4, 16);// YYYY, M, DD
+            $('#default-countdown').countdown({until: weddDay, format: 'YOD'});
+        });
+    </script>
 </head>
 <body class="home">
 
-	<!-- Mobile navigation -->
-	<nav class="mobile-nav-menu">
-		<a class="mobile-logo" href="index.html">Annie & Maguire's Wedding</a>
-		<a class="mobile-menu-btn" href="#"><span></span></a>
-		<div class="mobile-menu-container"></div>
-	</nav><!-- End .mobile-nav-menu -->
+<!-- Mobile navigation -->
+<nav class="mobile-nav-menu">
+    <a class="mobile-logo" href="index.html">Annie & Maguire's Wedding</a>
+    <a class="mobile-menu-btn" href="#"><span></span></a>
+    <div class="mobile-menu-container"></div>
+</nav><!-- End .mobile-nav-menu -->
 
-	<!-- Header -->
-	<header class="default">
-		<nav>
-			<ul>
-				<li><a title="The Couple" href="#couple">The Couple</a></li>
-				<li><a title="Gallery" href="#couple-gallery">Gallery</a></li>
-				<li><a title="RSVP &amp; Schedule" href="#rsvp">Hotel</a></li>
-				<li><a title="Registry Information" href="#recent-posts">Registry Info</a></li>
-				<li><a title="Contact" href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-		<h1>Annie <em>&amp;</em> Maguire</h1>
-		<span class="ceremony-date">April 16<sup>th</sup>, 2016</span>
-	</header>
-	
-	<!-- Couple section -->
-	<section id="couple" class="row">
-		<div class="columns large-12">
-			<div class="columns large-4 medium-4">
+<!-- Header -->
+<header class="default">
+    <nav>
+        <ul>
+            <li><a title="The Couple" href="#couple">The Couple</a></li>
+            <li><a title="Gallery" href="#couple-gallery">Photos</a></li>
+            <li><a title="Hotel" href="#rsvp">Hotel</a></li>
+            <li><a title="Registry Information" href="#recent-posts">Registry Info</a></li>
+            <li><a title="Contact" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Annie <em>&amp;</em> Maguire</h1>
+    <span class="ceremony-date">April 16<sup>th</sup>, 2016</span>
+</header>
+
+<!-- Couple section -->
+<section id="couple" class="row">
+    <div class="columns large-12">
+        <div class="columns large-4 medium-4">
 				<span class="headshot groom">
 					<img src="/assets/img/close_up_mac.jpg" alt="groom headshot" width="233">
 				</span>
-				<h3>Maguire</h3>
-				<p class="desc groom">
-					George Maguire Hewett, "Mac" grew up in Berkeley Heights, NJ. 
-					Mac was a very active child, playing various sports, including baseball, hockey and football. 
-					After graduating highschool Mac went on to Boston University  and majored in Finance and Operations at the School of Management.  
-					Mac currently works in Commerical Real Estate at Jones Lang Lasalle.   
+            <h3>Maguire</h3>
+            <p class="desc groom">
+                George Maguire Hewett, "Mac" grew up in Berkeley Heights, NJ.
+                Mac was a very active child, playing various sports, including baseball, hockey and football.
+                After graduating highschool Mac went on to Boston University  and majored in Finance and Operations at the School of Management.
+                Mac currently works in Commerical Real Estate at Jones Lang Lasalle.
 					<span class="social groom">
 						<a title="Like us on Facebook" href="https://www.facebook.com/mac.hewett" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
 				        <a title="Follow us on Instagram" href="https://twitter.com/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
 			    	</span>
-				</p>
-			</div><!-- End .large-4 -->
-			<div class="columns large-4 medium-4">
-				<p class="giant-ampersand">&amp;</p>
-			</div><!-- End .large-4 -->
-			<div class="columns large-4 medium-4">
+            </p>
+        </div><!-- End .large-4 -->
+        <div class="columns large-4 medium-4">
+            <p class="giant-ampersand">&amp;</p>
+        </div><!-- End .large-4 -->
+        <div class="columns large-4 medium-4">
 				<span class="headshot bride">
 					<img src="/assets/img/close_up_annie.jpg" alt="bride headshot" width="233">
 				</span>
-				<h3>Annie</h3>
-				<p class="desc bride">
-					Anne Hilary Thorne, "Annie, grew up in Pasadena, CA.  Annie was a very competitive young girl, participating in many sports including Soccer, Swimming, and Volleyball.  After graduating high school, Annie went to Boston University and majored in Finance and Law at School of Mangement.  Annie currently works on the Finance Team at Fiji Water LLC.
+            <h3>Annie</h3>
+            <p class="desc bride">
+                Anne Hilary Thorne, "Annie, grew up in Pasadena, CA.  Annie was a very competitive young girl, participating in many sports including Soccer, Swimming, and Volleyball.  After graduating high school, Annie went to Boston University and majored in Finance and Law at School of Mangement.  Annie currently works on the Finance Team at Fiji Water LLC.
 					<span class="social bride">
 						<a title="Like us on Facebook" href="https://www.facebook.com/annie.thorne.92" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
 				        <a title="Follow us on Instagram" href="https://twitter.com/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
 			    	</span>
-				</p>
-			</div><!-- End .large-4 -->
-		</div><!-- End .large-12 -->
-	</section><!-- End #couple -->
-	
-	<!-- Countdown section -->
-	<section id="countdown">
-		<h2>Countdown to our Wedding</h2>
-		<h3 style="color: #fff">April 16th, 2016</h3>
-		<div id="default-countdown"></div>
-	</section><!-- End #countdown -->
+            </p>
+        </div><!-- End .large-4 -->
+    </div><!-- End .large-12 -->
+</section><!-- End #couple -->
 
-	<!-- Couple gallery section -->
-	<section id="couple-gallery">
-		<h2>Gallery</h2>
-		<div class="il-scattered-gallery">
-			<a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-			<a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-			<a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-			<a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-			<a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-			<a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-			<a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
-		</div>
-		<div class="couple-slideshow-wrap">
-			<ul id="couple-slideshow"></ul>
-			<ul class="couple-thumbs"></ul>
-		</div><!-- End .couple-slideshow-wrap -->
-		<a id="gallery-launcher" href="#">Click to view gallery</a>
-		<div class="couple-mobile-slider-wrap"><div class="couple-mobile-slider"></div></div>
-	</section><!-- End #couple-gallery -->
-	
-	<!-- Recent posts section -->
-	<section id="recent-posts">
-		<h2>Registry Information</h2>
-		<div class="blog-posts-wrap">
+<!-- Countdown section -->
+<section id="countdown">
+    <h2>Countdown to our Wedding</h2>
+    <h3 style="color: #fff">April 16th, 2016</h3>
+    <div id="default-countdown"></div>
+</section><!-- End #countdown -->
 
-			<!-- begin blog post -->
-			<div class="blog-post columns large-4 medium-4 small-12">
-				<img src="/assets/img/registry_geary.png" alt="">
-				<div class="post-text">
-					<h3>Gearys</h3>
-					<a href="http://www.gearys.com/giftregistry/search/" class="read-more">Visit Registry</a>
-				</div>
-			</div>
-			<!-- end blog post -->
-			
-			<!-- begin blog post -->
-			<div class="blog-post columns large-4 medium-4 small-12">
-				<img src="/assets/img/registry_williams_sonoma.png" alt="">
-				<div class="post-text">
-					<h3>Williams Sonoma</h3>
-					<a href="https://secure.williams-sonoma.com/registry/find-registry.html?cm_type=gnav" class="read-more">Visit Registry</a>
-				</div>
-			</div>
-			<!-- end blog post -->
-			
-			<!-- begin blog post -->
-			<div class="blog-post columns large-4 medium-4 small-12">
-				<img src="/assets/img/registry_bloomingdales.png" alt="">
-				<div class="post-text">
-					<h3>Bloomingdales</h3>
-					<a href="http://www1.bloomingdales.com/registry/wedding/registrysearch" class="read-more">Visit Registry</a>
-				</div>
-			</div>
-			<!-- end blog post -->
+<!-- Couple gallery section -->
+<section id="couple-gallery">
+    <h2>Engagement Photos</h2>
+    <div class="il-scattered-gallery">
+        <a href="#"><img src="/assets/img/engagementphotos/041616Engage_0038.jpg" alt=""></a>
+        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+        <a href="#"><img src="http://placehold.it/1000x667/eeeeee" alt=""></a>
+    </div>
+    <div class="couple-slideshow-wrap">
+        <ul id="couple-slideshow"></ul>
+        <ul class="couple-thumbs"></ul>
+    </div><!-- End .couple-slideshow-wrap -->
+    <a id="gallery-launcher" href="#">Click to view gallery</a>
+    <div class="couple-mobile-slider-wrap"><div class="couple-mobile-slider"></div></div>
+</section><!-- End #couple-gallery -->
 
-		</div><!-- End .blog-posts-wrap -->
-	</section><!-- End #recent-posts -->
-	
-	<!-- RSVP section -->
-	<section id="rsvp">
-		<div class="rsvp-form-wrap">
-			<h2>Hotel Block</h2>
-			<p class="rsvp-desc">Come book your room with us.</p>
-			<a class="button round-btn" href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Thorne-Hewett%20Wedding%20Block%5Esbasy%60thwthwa%7Cthwthwb%60209.00-259.00%60USD%60false%603%604/15/16%604/17/16%603/14/16&app=resvlink&stop_mobi=yes">
-				Book Room
-			</a>
-		</div><!-- End .rsvp-form-wrap -->
-	</section><!-- End #rsvp -->
-	
+<!-- Recent posts section -->
+<section id="recent-posts">
+    <h2>Registry Information</h2>
+    <div class="blog-posts-wrap">
 
-	
-	<!-- Contact section -->
-	<section id="contact">
-		<div class="contact-form-wrap">
-			<h2>Contact</h2>
-			<p class="contact-desc">Any further questions please send us a message in the comments box below or contact Annie at <a href="mailto:annehthorne@gmail.com">annehthorne@gmail.com</a></p>
-		</div><!-- End .contact-form-wrap -->
-	</section><!-- End #contact -->
+        <!-- begin blog post -->
+        <div class="blog-post columns large-4 medium-4 small-12">
+            <img src="/assets/img/registry_geary.png" alt="">
+            <div class="post-text">
+                <h3>Gearys</h3>
+                <a href="http://www.gearys.com/giftregistry/search/" class="read-more">Visit Registry</a>
+            </div>
+        </div>
+        <!-- end blog post -->
 
-	<footer>
-	</footer>
-	
-	<script src="/assets/js/foundation.min.js"></script>
-	<script src="/assets/js/plugins.js"></script>
-	<script src="/assets/js/scripts.js"></script>
+        <!-- begin blog post -->
+        <div class="blog-post columns large-4 medium-4 small-12">
+            <img src="/assets/img/registry_williams_sonoma.png" alt="">
+            <div class="post-text">
+                <h3>Williams Sonoma</h3>
+                <a href="https://secure.williams-sonoma.com/registry/find-registry.html?cm_type=gnav" class="read-more">Visit Registry</a>
+            </div>
+        </div>
+        <!-- end blog post -->
 
-	<script type="text/javascript">
-		$(function() {
-			$('#bridesmaid-carousel').gallery();
-			$('#groomsmen-carousel').ggallery();
-			$('#couple-gallery').ilScatteredGallery();
-		});
-	</script>
+        <!-- begin blog post -->
+        <div class="blog-post columns large-4 medium-4 small-12">
+            <img src="/assets/img/registry_bloomingdales.png" alt="">
+            <div class="post-text">
+                <h3>Bloomingdales</h3>
+                <a href="http://www1.bloomingdales.com/registry/wedding/registrysearch" class="read-more">Visit Registry</a>
+            </div>
+        </div>
+        <!-- end blog post -->
 
-	<script>
-		jQuery(document).foundation();
-	</script>
+    </div><!-- End .blog-posts-wrap -->
+</section><!-- End #recent-posts -->
+
+<!-- RSVP section -->
+<section id="rsvp">
+    <div class="rsvp-form-wrap">
+        <h2>Hotel Block</h2>
+        <p class="rsvp-desc">Come book your room with us.</p>
+        <a class="button round-btn" href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Thorne-Hewett%20Wedding%20Block%5Esbasy%60thwthwa%7Cthwthwb%60209.00-259.00%60USD%60false%603%604/15/16%604/17/16%603/14/16&app=resvlink&stop_mobi=yes">
+            Book Room
+        </a>
+    </div><!-- End .rsvp-form-wrap -->
+</section><!-- End #rsvp -->
+
+<!-- Schedule section -->
+<!--<section id="schedule">
+    <div class="schedule-content-wrap">
+        <h2>Schedule: Coming soon!</h2>
+        <div class="row">
+            <div class="columns large-6">
+                <strong>Main Ceremony</strong>
+                <img src="http://placehold.it/175x175" alt="">
+                <div class="event-details">
+                    <p>2:00pm-4:00pm<br>
+                    Los Angeles, CA<br>
+                    10, FIRST AVENUE<br>
+                    <a href="">VIEW DIRECTIONS</a></p>
+                    <p>Lorem ipsum dolor sit amet, con pisi cing elit, sed do eiusmod tempor exercitationemut labore et dolore magna aliqua. Ut enim ad consequatur</p>
+                </div>
+            </div>
+            <div class="columns large-6">
+                <strong>Wedding Party</strong>
+                <img src="http://placehold.it/175x175" alt="">
+                <div class="event-details">
+                    <p>2:00pm-4:00pm<br>
+                    Los Angeles, CA<br>
+                    10, FIRST AVENUE<br>
+                    <a href="">VIEW DIRECTIONS</a></p>
+                    <p>Lorem ipsum dolor sit amet, con pisi cing elit, sed do eiusmod tempor exercitationemut labore et dolore magna aliqua. Ut enim ad consequatur</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+<!-- Contact section -->
+<section id="contact">
+    <div class="contact-form-wrap">
+        <h2>Contact</h2>
+        <p class="contact-desc">Any further questions please send us a message in the comments box below or contact Annie at <a href="mailto:annehthorne@gmail.com">annehthorne@gmail.com</a></p>
+    </div><!-- End .contact-form-wrap -->
+</section><!-- End #contact -->
+
+<footer>
+    <p>We hope you can make it!</p>
+</footer>
+
+<script src="/assets/js/foundation.min.js"></script>
+<script src="/assets/js/plugins.js"></script>
+<script src="/assets/js/scripts.js"></script>
+
+<script type="text/javascript">
+    $(function() {
+        $('#couple-gallery').ilScatteredGallery();
+    });
+</script>
+
+<script>
+    jQuery(document).foundation();
+</script>
 </body>
 </html>

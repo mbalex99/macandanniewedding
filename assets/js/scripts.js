@@ -107,16 +107,11 @@ $(document).ready(function(){
           $('.rsvp-form-wrap').addClass('on-screen');
         }
 
-        if( $('#schedule').isOnScreen() ){
-          $('.schedule-content-wrap').addClass('on-screen');
-        }
-
         if( $('#contact').isOnScreen() ){
           $('.contact-form-wrap').addClass('on-screen');
         }
 
       }
-
       if( $('body').hasClass('blog') || $('body').hasClass('single') ){
         if( $(window).scrollTop() >= 83 ){
           $('header.fixed').fadeIn(400);
@@ -171,40 +166,6 @@ $(window).load (function(){
     var sliderTwo;
     var sliderThree;
     var coupleSlideshow;
-
-    // Bridesmaids
-    $('#bridesmaid-carousel a img').each(function(){
-      bridesmaidsSlider.push($(this).attr('src'));
-    });
-    for ( var i = 0, l = bridesmaidsSlider.length; i < l; i++ ) {
-      $('.bridemaids-mobile-slider').append('<img src="'+bridesmaidsSlider[ i ]+'" alt="" />')
-    }
-    slider = $('.bridemaids-mobile-slider').bxSlider({
-      auto: true,
-      mode: 'horizontal',
-      speed: 1000,
-      pager: false,
-      controls: false,
-      pause: 4000
-    });
-    slider.startAuto();
-
-    // Groomsmen
-    $('#groomsmen-carousel a img').each(function(){
-      groomsmenSlider.push($(this).attr('src'));
-    });
-    for ( var i = 0, l = groomsmenSlider.length; i < l; i++ ) {
-      $('.groomsmen-mobile-slider').append('<img src="'+groomsmenSlider[ i ]+'" alt="" />')
-    }
-    sliderTwo = $('.groomsmen-mobile-slider').bxSlider({
-      auto: true,
-      mode: 'horizontal',
-      speed: 1000,
-      pager: false,
-      controls: false,
-      pause: 4100
-    });
-    sliderTwo.startAuto();
 
     // Couple
     $('.il-scattered-gallery a img').each(function(){
@@ -292,7 +253,7 @@ jQuery.fn.isOnScreen = function(){
              
     return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
      
-}
+};
 
 /**
   * @desc checks if current element is 100% visible within viewport

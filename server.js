@@ -5,6 +5,7 @@ var ejs = require('ejs');
 app.set('view engine', 'html');
 app.engine('html', ejs.renderFile);
 app.use('/assets', express.static('assets'));
+app.use('/bower_components', express.static('bower_components'));
 
 
 app.get('/', function (req, res) {

@@ -1,0 +1,20 @@
+{
+  "name": "macanniewedding",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mbalex99/macandanniewedding",
+  "authors": [
+    "Maximilian Alexander <max@zinkpulse.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "slick.js": "~1.5.6",
+    "slick-carousel": "~1.5.6"
+  }
+}
