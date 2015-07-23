@@ -1122,6 +1122,7 @@ SCHEDULE SECTION
   height: 980px;
   background: #eee;
   background-size: cover;
+  background: url("/assets/img/engagementphotos/041616Engage_0135.jpg") center top no-repeat;
   padding-top: 7.875rem;
   position: relative;
   z-index: 2;
@@ -1181,12 +1182,11 @@ SCHEDULE SECTION
 .schedule-content-wrap {
   background: #fff;
   width: 663px;
-  height: 732px;
+  height: 300px;
   margin: 0 auto;
   padding-top: 5rem;
   position: relative;
   right: -100px;
-  opacity: 0;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
