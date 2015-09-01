@@ -140,7 +140,6 @@ input.button,
 .round-btn {
   display: block;
   width: 159px;
-  height: 48px;
   margin: 34px auto 0;
   background: #003768;
   letter-spacing: 2px;
@@ -483,7 +482,7 @@ HEADER
 header.default {
   width: 100%;
   height: 826px;
-  background: url("/assets/img/banner_1.jpg") center top no-repeat;
+  background: url("/assets/img/banner_4.jpg") center top no-repeat;
   background-size: cover;
 }
 header.default nav {
@@ -734,7 +733,7 @@ GROOMSMEN GALLERY
   padding-top: 5.375rem;
   height: 723px;
   background: url("/assets/img/golf_pants_pattern.jpg") repeat;
- 
+
   position: relative;
 }
 #groomsmen-gallery h2 {
@@ -1057,7 +1056,7 @@ RSVP SECTION
 #rsvp {
   width: 100%;
   height: 973px;
-  background: url("/assets/img/banner_4.jpg") center top no-repeat;
+  background: url("/assets/img/banner_1.jpg") center top no-repeat;
   background-size: cover;
   padding-top: 7.5rem;
   position: relative;
@@ -1075,9 +1074,9 @@ RSVP SECTION
 .rsvp-form-wrap {
   background: rgba(255, 255, 255, 0.5);
   width: 663px;
-  height: 350px;
   margin: 0 auto;
   padding-top: 5rem;
+  padding-bottom: 50px;
   position: relative;
   top: 100px;
   opacity: 0;
@@ -1105,7 +1104,7 @@ RSVP SECTION
 
 .rsvp-desc {
   text-align: center;
-  color: #818181;
+  color: #131313;
   width: 326px;
   margin: 1.3125rem auto 3.4375rem;
   font-family: "Lato", sans-serif;
@@ -1186,7 +1185,6 @@ SCHEDULE SECTION
   margin: 0 auto;
   padding-top: 5rem;
   position: relative;
-  right: -100px;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
