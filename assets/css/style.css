@@ -1181,9 +1181,9 @@ SCHEDULE SECTION
 .schedule-content-wrap {
   background: #fff;
   width: 663px;
-  height: 300px;
   margin: 0 auto;
   padding-top: 5rem;
+  padding-bottom: 5rem;
   position: relative;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
